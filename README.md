@@ -1,3 +1,5 @@
+![Resume](./Resume/ResumeDraft.md)
+
 <html>
 <h1>Ethan Knox | Physics & Mathematics Graduate</h1>
 
