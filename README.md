@@ -2,7 +2,7 @@
 ## Career & Research Interests Exploration: A Network Graph Approach
 ##### - Inspiration & Initial Diagrams by C.R. Nave at Georgia State University
 
-<br></br>
+<br>
 
 <table>
 <tr>
@@ -13,7 +13,7 @@
 <tr>
     <th style="text-align:center">Physics</th>
     <td><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/index.html"><img src="./Photos/HyperPhysics/Hyperphysics.gif" alt="HyperPhysics" width="600" height="600"></a></td>
-    <td><img src="./Photos/Mermaid/Physics/Hyperphysics.svg" alt="HyperPhysics" width="600" height="600"></td>
+    <td><img src="./Photos/Mermaid/Physics/HyperPhysics.svg" alt="HyperPhysics" width="600" height="600"></td>
     <td></td>
 </tr>
 <tr>
@@ -72,15 +72,13 @@
 </tr>
 <tr>
     <th style="text-align:center">Mechanics</th>
-    <td><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/index.html#mechcon"><img src="./Photos/HyperPhysics/Mechanics/Mechanics.gif" alt="Mechanics" width="400" height="400"></a></td>
+    <td><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/index.html#mechcon"><img src="./Photos/HyperPhysics/Mechanics/Mechanics.gif" alt="Mechanics" width="600" height="400"></a></td>
     <td><img src="./Photos/Mermaid/Physics/Mechanics.svg" alt="Mechanics" width="600" height="400"></td>
     <td></td>
 </tr>
 </table>
 
 <br>
-
-## <strong>Mathematics</strong>
 
 <table>
 <tr>
@@ -89,61 +87,61 @@
     <th style="text-align:center">Mermaid</th>
     <th style="text-align:center">Sage</th></tr>
 <tr>
-    <th style="text-align:center">Math</th><td><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/hmat.html"><img src="./Photos/HyperMath/HyperMath.gif" alt="HyperMath" width="300" height="200"></a></td>
+    <th style="text-align:center">Math</th><td><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/hmat.html"><img src="./Photos/HyperMath/HyperMath.gif" alt="HyperMath" width="600" height="400"></a></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <th style="text-align:center">Trigonometry</th>
-    <td><img src="./Photos/HyperMath/Trigonometry.gif" alt="Trigonometry" width="300" height="200"></td>
+    <td><img src="./Photos/HyperMath/Trigonometry.gif" alt="Trigonometry" width="600" height="400"></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <th style="text-align:center">Geometry</th>
-    <td><img src="./Photos/HyperMath/Geometry.gif" alt="Geometry" width="300" height="200"></td>
+    <td><img src="./Photos/HyperMath/Geometry.gif" alt="Geometry" width="600" height="400"></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <th style="text-align:center">Vectors</th>
-    <td><img src="./Photos/HyperMath/Vectors.gif" alt="Vectors" width="300" height="200"></td>
+    <td><img src="./Photos/HyperMath/Vectors.gif" alt="Vectors" width="600" height="400"></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <th style="text-align:center">Linear Algebra</th>
-    <td><img src="./Photos/HyperMath/LinearAlgebra.gif" alt="Linear Algebra" width="300" height="200"></td>
+    <td><img src="./Photos/HyperMath/LinearAlgebra.gif" alt="Linear Algebra" width="600" height="400"></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <th style="text-align:center">Logarithms</th>
-    <td><img src="./Photos/HyperMath/Logarithms.gif" alt="Logarithms" width="300" height="200"></td>
+    <td><img src="./Photos/HyperMath/Logarithms.gif" alt="Logarithms" width="600" height="400"></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <th style="text-align:center">Exponents</th>
-    <td><img src="./Photos/HyperMath/Exponents.gif" alt="Exponents" width="300" height="200"></td>
+    <td><img src="./Photos/HyperMath/Exponents.gif" alt="Exponents" width="600" height="400"></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <th style="text-align:center">Calculus</th>
-    <td><img src="./Photos/HyperMath/Calculus.gif" alt="Calculus" width="300" height="200"></td>
+    <td><img src="./Photos/HyperMath/Calculus.gif" alt="Calculus" width="600" height="400"></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <th style="text-align:center">Differential Equations</th>
-    <td><img src="./Photos/HyperMath/DifferentialEquations.gif" alt="Differential Equations" width="300" height="200"></td>
+    <td><img src="./Photos/HyperMath/DifferentialEquations.gif" alt="Differential Equations" width="600" height="400"></td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <th style="text-align:center">Algebra</th>
-    <td><img src="./Photos/HyperMath/Algebra.gif" alt="Algebra" width="300" height="200"></td>
+    <td><img src="./Photos/HyperMath/Algebra.gif" alt="Algebra" width="600" height="400"></td>
     <td></td>
     <td></td>
 </tr>
