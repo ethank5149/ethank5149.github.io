@@ -1,10 +1,15 @@
-# Ethan Knox | Physics & Mathematics Graduate
-## Career & Research Interests Exploration: A Network Graph Approach
-##### - Inspiration & Initial Diagrams by C.R. Nave at Georgia State University
+<html>
+<h1>Ethan Knox | Physics & Mathematics Graduate</h1>
 
+<h2 style="text-align:center">Career & Research Interests Exploration: A Network Graph Approach</h2>
+
+<h5 style="text-align:center"> - Inspiration & Initial Diagrams by C.R. Nave at Georgia State University - </h5>
+
+
+<body>
 <br>
 
-<table>
+<table style="width:100%">
 <tr>
     <th></th>
     <th style="text-align:center">Original</th>
@@ -80,7 +85,7 @@
 
 <br>
 
-<table>
+<table style="width:100%">
 <tr>
     <th></th>
     <th style="text-align:center">Original</th>
@@ -146,3 +151,5 @@
     <td></td>
 </tr>
 </table>
+</body>
+</html>
