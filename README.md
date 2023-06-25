@@ -1,5 +1,3 @@
-<html>
-
 <style>
 img {
     /* width: auto; */
@@ -9,8 +7,7 @@ img {
 </style>
 
 
-
-
+<html>
 <body>
 <h1>Ethan Knox | Physics & Mathematics Graduate</h1>
 
