@@ -2,8 +2,9 @@
 
 <style>
 img {
-  width: 25em;
-  height: 25em;
+    /* width: auto; */
+    width: 100%;
+    height: 25em;
 }
 </style>
 
