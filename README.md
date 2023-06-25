@@ -1,16 +1,13 @@
-<html>
-
 <style>
 img {
     /* width: auto; */
-    /* width: 100%; */
+    width: 100%;
     height: 25em;
 }
 </style>
 
 
-
-
+<html>
 <body>
 <h1>Ethan Knox | Physics & Mathematics Graduate</h1>
 
