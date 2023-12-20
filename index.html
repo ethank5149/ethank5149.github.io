@@ -7,6 +7,7 @@
       background-color: White;
       color: Black;
       text-align: left;
+      margin: 24px; /* 0.25in margins */
     }
     h1 {
       /* font-size: 2.5em; */
@@ -68,6 +69,13 @@
     li {
       text-align: left;
       background-color: White;
+    }
+    th {
+      text-align: center;
+    }
+    .center {
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
   <h1>
@@ -219,34 +227,37 @@
       </li>
   </ul>
 
+<!-- End Resume -->
+<hr/><hr width="50%"/>
+<br></br>
 
-
-  <!-- <object data="./resources/resume-rolling.pdf" width="800" height="500"></object> -->
-
-  <footer>    
+  <footer>
     <h2><strong>Recent Projects & Research Interests</strong></h2>
     <hr/>
-    <table>
+    <table class="center">
       <tr>
         <th>Project</th>
         <th>Example</th>
       </tr>
       <tr>
         <td>
-          <a href="https://github.com/ethank5149/PyPendula">PyPendula-N3</a>
+          <a href="https://ethank5149.github.io/PyPendula">PyPendula</a>
         </td>
         <td>
-        <video width="500" height="auto" autoplay loop muted>
-        <source src="./resources/pypendula-n3-example.mp4" type="video/mp4"/>
+        <video width="100%" height="auto" autoplay loop muted>
+        <source src="./resources/pypendula-example.mp4" type="video/mp4"/>
         </video>
         </td>
       </tr>
       <tr>
-        <td>PyLattice-N9</td>
         <td>
-          <video width="500" height="auto" autoplay loop muted>
+          <!-- <a href="https://ethank5149.github.io/PyLattice">PyLattice</a> -->
+          PyLattice
+        </td>
+        <td>
+          <video width="100%" height="auto" autoplay loop muted>
             <source src="./resources/pylattice-n9-example.mp4" type="video/mp4"/>
-          </video>
+            </video>    
         </td>
       </tr>
     </table>
