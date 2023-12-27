@@ -83,7 +83,47 @@
     .column {
       flex: 50%;
     }
+    
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
   </style>
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
 </head>
 
 <header>
@@ -102,14 +142,22 @@
   <div style="text-align:right">
     <a href="https://github.com/ethank5149"><img src="https://img.shields.io/badge/GitHub-ethank5149-black?style=social&logo=github"></a>
   </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./resources/computational-physics-cover-letter.html">Computational Phycisict</a>
+    <a href="./resources/modeling-&-simulation-engineer-cover-letter.html">Modeling & Simulation Engineer</a>
+    <a href="./resources/physics-programmer-cover-letter.html">Physics Programmer</a>
+  </div>
+  <span style="cursor:pointer" onclick="openNav()"><h2>&#9776; Cover Letters</h2></span>
 </header>
 
 <br></br>    
 
 <body>
-
   <h1>Background</h1>
   <hr/>
+
   <p>
     A strong mathematics background lending to an innate understanding of the laws of physics.
     Particularly interested in scientific computing / computational physics, as it not only greatly elucidates the underlying physical phenomena, but is frequently at the intersection of theory, experiment, and industry.
@@ -126,7 +174,6 @@
               <li><strong>Mathematics</strong> (Calculus, Differential Equations, Linear Algebra)</li>
               <li><strong>Python</strong> (Numpy, Scipy, Sympy, Pandas, Matplotlib)</li>
               <li><strong>Teamwork</strong> (Eagle Scout, Scholastic/Extracurricular Sports)</li>
-              <!-- <li></li> -->
           </ul>
       </div>
       <div class="column">
@@ -134,7 +181,6 @@
               <li><strong>Physics</strong> (Mechanics/Dynamics, Astrophysics/Cosmology)</li>
               <li><strong>C/C++</strong> (Boost, XTensor Libraries)</li>
               <li><strong>Autodidactism</strong> (Self-Learner, Intellectually Curious)</li>
-              <!-- <li></li> -->
             </ul>
       </div>
   </div>
