@@ -83,12 +83,52 @@
     .column {
       flex: 50%;
     }
-    </style>
-  </head>
+    
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+  </style>
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+</head>
 
 <header>
-  <h1 style="text-align:left">
-    <strong>Ethan Knox</strong>
+  <h1 style="text-align:right">
+    <strong>Ethan Knox</strong> | <strong>Mathematics & Physics Graduate</strong>
   </h1>
   <div style="text-align:left">
     <img src="https://img.shields.io/badge/Location-Champaign, IL 61820-Black?style=social&logo=googlemaps">
@@ -102,6 +142,14 @@
   <div style="text-align:left">
     <a href="https://github.com/ethank5149"><img src="https://img.shields.io/badge/GitHub-ethank5149-black?style=social&logo=github"></a>
   </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./resources/computational-physics-cover-letter.html">Computational Phycisict</a>
+    <a href="./resources/modeling-&-simulation-engineer-cover-letter.html">Modeling & Simulation Engineer</a>
+    <a href="./resources/physics-programmer-cover-letter.html">Physics Programmer</a>
+  </div>
+  <span style="cursor:pointer" onclick="openNav()"><h2>&#9776; Cover Letters</h2></span>
 </header>
 
 <!-- <br> -->
@@ -190,14 +238,14 @@
           <ul>
               <li><strong>Mathematics</strong> (Calculus, Differential Equations, Linear Algebra)</li>
               <li><strong>Python</strong> (Numpy, Scipy, Sympy, Pandas, Matplotlib)</li>
-              <li><strong>Teamwork</strong> (Eagle Scout, Scholastic/Extracurricular Sports)</li>
+              <li><strong>Data Analysis</strong> (Image Post-Processing and Higher-Level Analysis)</li>
           </ul>
       </div>
       <div class="column">
           <ul>
               <li><strong>Physics</strong> (Mechanics/Dynamics, Astrophysics/Cosmology)</li>
               <li><strong>C/C++</strong> (Boost, XTensor Libraries)</li>
-              <li><strong>Autodidactism</strong> (Self-Learner, Intellectually Curious)</li>
+              <li><strong>Teamwork</strong> (Eagle Scout, Scholastic/Extracurricular Sports)</li>
             </ul>
       </div>
   </div>
@@ -258,84 +306,9 @@
 
   <h1><strong>Awards & Scholarships</strong></h1>
   <hr/>
+  
 
-  <p>
-    <span><strong>The Tap</strong></span>
-    <span></span>
-    <span><strong>West Lafayette, IN</strong></span>
-</p>
-<p>
-  <span><i>"Above and Beyond" Award</i></span>
-  <span></span>
-  <span>December 2022</span>
-</p>
-
-<p>
-  <span><strong>Purdue University</strong></span>
-  <span></span>
-  <span><strong>West Lafayette, IN</strong></span>
-</p>
-<p>
-<span><i>Dean's List</i></span>
-<span></span>
-<span>Fall '17, Spring '20</span>
-</p>
-<p>
-  <span><i>Semester Honors</i></span>
-  <span></span>
-  <span>Fall '17, Fall '18 - Spring '20</span>
-  </p>
-  <p>
-    <span><i>Provost Summer Scholarship</i></span>
-    <span></span>
-    <span>Summer 2017, Summer 2018</span>
-    </p>
-  <p>
-    <span>
-      <ul>
-        <li>Frank O'Bannon Honors & Accelerated Scholarships</li>
-        <li>David R. Lebeson Memorial Scholarship</li>
-        <li>T. G. Alford Scholarship</li>
-    </ul>
-  </span>
-  </p>
-
-  <p>
-    <span><strong>Southport High School</strong></span>
-    <span></span>
-    <span><strong>Indianapolis, IN</strong></span>
-  </p>
-  <p>
-    <span><i>Science Department "Student of the Month"</i></span>
-    <span></span>
-    <span>November 2016</span>
-  </p>
-
-<p>
-  <span><strong>Boy Scouts of America | Troop 92</strong></span>
-  <span></span>
-  <span><strong>Indianapolis, IN</strong></span>
-</p>
-<p>
-  <span><i>"Scout of the Year"</i></span>
-  <span></span>
-  <span>September 2016</span>
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- <div class="row">
+  <div class="row">
     <div class="column">
         <ul>
             <li>T. G. Alford Scholarship</li>
@@ -417,7 +390,7 @@
       </li>
   </ul>
   <p style="color: Navy">
-      <span><strong>Sales Assocoiate</strong> | <strong>Gander Mountain</strong></span>
+      <span><strong>Sales Associate</strong> | <strong>Gander Mountain</strong></span>
       <span></span>
       <span><strong>July 2016 - January 2017</strong></span>
   </p>
@@ -426,7 +399,7 @@
       <li>Organized and stratified product from new shipments to keep the store running smoothly.</li>
   </ul> -->
 
-  <h1>Extracurricular</h1>
+  <h1>Interests</h1>
   <hr/>
  
   <p>
@@ -501,7 +474,8 @@
 </body>
 
 <!-- End Resume -->
-<hr/><hr width="50%"/>
+
+<!-- <hr/><hr width="50%"/>
 <br></br>
   <footer>
     <h2><strong>Recent Projects & Research Interests</strong></h2>
@@ -532,6 +506,6 @@
         </td>
       </tr>
     </table>
-  </footer>
+  </footer> -->
 
   </html>
